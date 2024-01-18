@@ -15,7 +15,7 @@
     "build:core:watch": "ng build core --watch",
     "build:forms:watch": "ng build forms --watch",
     "test": "ng test",
-    "test:core": "ng test core",
+    "test:core": "./node_modules/.bin/ng test core",
     "test:forms": "ng test forms",
     "lint": "ng lint",
     "lint:core": "ng lint core",
@@ -42,7 +42,7 @@
     "zone.js": "0.14.3"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^16.2.11",
+    "@angular-devkit/build-angular": "^17.0.10",
     "@angular-eslint/builder": "^17.2.0",
     "@angular-eslint/eslint-plugin": "17.2.0",
     "@angular-eslint/eslint-plugin-template": "17.2.0",
@@ -72,7 +72,7 @@
     "lint-staged": "15.2.0",
     "ng-packagr": "17.1.0",
     "prettier": "3.2.4",
-    "protractor": "^3.3.0",
+    "protractor": "^7.0.0",
     "ts-node": "10.9.2",
     "tslib": "2.6.2",
     "typescript": "5.2.2",
