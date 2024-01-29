@@ -16,6 +16,7 @@
     "build:forms:watch": "ng build forms --watch",
     "test": "ng test",
     "test:core": "./node_modules/.bin/ng test core",
+    "test:core:one": "./node_modules/.bin/ng test core --include='**/component.outlet.lifecycle.spec.ts'",
     "test:forms": "ng test forms",
     "lint": "ng lint",
     "lint:core": "ng lint core",
